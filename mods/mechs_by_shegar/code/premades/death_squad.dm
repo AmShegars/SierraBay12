@@ -136,7 +136,6 @@
 
 /mob/living/exosuit/premade/death_light
 	name = "Phason"
-	desc = "SOSI"
 
 /obj/item/mech_component/manipulators/light/death_light //Лапы
 	max_damage = 160
