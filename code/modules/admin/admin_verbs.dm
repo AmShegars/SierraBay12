@@ -186,6 +186,9 @@ var/global/list/admin_verbs_debug = list(
 	/client/proc/overlay_random_map,
 	/client/proc/delete_random_map,
 	/datum/admins/proc/map_template_load,
+	//[SIERRA-ADD] - Colony types
+	/datum/admins/proc/map_template_choose_colony_type,
+	//[SIERRA-ADD]
 	/datum/admins/proc/map_template_load_new_z,
 	/datum/admins/proc/map_template_upload,
 	/client/proc/enable_debug_verbs,
