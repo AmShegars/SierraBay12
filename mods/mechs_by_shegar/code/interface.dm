@@ -108,7 +108,7 @@
 		id_holder = null
 		return
 	else if (choosed_place == "Write NEW ID")
-		if(!card.access) //<- карта пустая лол
+		if(!card.access) //<- карта пустая
 			to_chat(user, "ERROR.No access detected in ID card")
 			return
 

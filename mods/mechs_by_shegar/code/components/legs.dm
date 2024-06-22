@@ -20,6 +20,7 @@
 	min_damage = 50
 	max_repair = 20
 	repair_damage = 15
+	req_material = MATERIAL_ALUMINIUM
 
 /obj/item/mech_component/propulsion/spider
 	max_damage = 210
@@ -28,6 +29,7 @@
 	repair_damage = 50
 	bump_type = MEDIUM_BUMP
 	can_strafe = TRUE
+	req_material = MATERIAL_ALUMINIUM
 
 /obj/item/mech_component/propulsion/tracks
 	max_damage = 250
@@ -45,6 +47,7 @@
 	repair_damage = 20
 	bump_type = HARD_BUMP
 	bump_safety = FALSE
+	req_material = MATERIAL_PLASTEEL
 
 /obj/item/mech_component/propulsion/combat
 	max_damage = 180
